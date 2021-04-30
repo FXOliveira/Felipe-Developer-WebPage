@@ -1,0 +1,13 @@
+@import 'variables';
+
+
+
+@mixin reset{
+	margin:$zero-value;
+	padding:$zero-value;
+}
+
+
+@mixin drawTitleBorder{
+	border-bottom: 1px solid map-get($color,preto)
+}
