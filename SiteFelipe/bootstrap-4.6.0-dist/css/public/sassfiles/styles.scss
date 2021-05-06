@@ -1,0 +1,27 @@
+@import 'mixins';
+
+h1,h2,h3,h4,h5,h6,p{
+	@include reset;
+}
+
+
+header{
+	@include header-background;
+}
+
+footer{
+	@include header-background;
+	@include getmargin(35px,0,0,0);
+}
+
+ul{
+	list-style: none;
+	@include reset;	
+}
+
+.saiba-mais{
+	background-color: map-get($color,azul);
+}
+
+
+	
