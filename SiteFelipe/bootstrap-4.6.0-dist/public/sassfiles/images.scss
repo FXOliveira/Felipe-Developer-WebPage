@@ -1,0 +1,27 @@
+@import 'mixins';
+
+
+@media (min-width: 320px){
+	.logo img{
+		
+	}
+
+	.foto-desenvolvedor{
+		img{
+			@include define-dimension(230px,230px);
+			@include getpadding(20px,0,20px,0);
+		}
+	}
+		
+	
+
+	.imagem-servicos{
+		@include define-dimension(150px,120px);
+	}
+}
+
+@media (min-width: 768px){
+	.logo img{
+		
+	}
+}

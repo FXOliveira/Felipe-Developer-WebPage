@@ -1,0 +1,37 @@
+@import 'variables';
+
+
+
+@mixin reset{
+	margin:$zero-value;
+	padding:$zero-value;
+}
+
+
+@mixin drawTitleBorder{
+	border-bottom: 2px groove map-get($color,azul);
+}
+
+
+@mixin header-background{
+	background-color:map-get($color,black-light);
+}
+
+@mixin define-dimension($wid,$hei){
+	width: $wid;
+	height: $hei;
+	object-fit:cover;
+}
+
+@mixin getfontsize($device,$title){
+	font-size: map-get($fonts-size,$device,$title);
+}
+
+@mixin getmargin($a,$b,$c,$d){
+	margin:$a  $b  $c  $d;
+}
+
+@mixin getpadding($a,$b,$c,$d){
+	margin:$a  $b  $c  $d;
+}
+
