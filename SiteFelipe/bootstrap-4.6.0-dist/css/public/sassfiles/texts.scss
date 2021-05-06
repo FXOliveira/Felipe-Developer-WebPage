@@ -1,7 +1,0 @@
-@import 'mixins';
-
-@media (min-width: 320px){
-	h1{
-		@include getfontsize(mobile);
-	}
-}
