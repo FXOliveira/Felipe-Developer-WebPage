@@ -1,27 +1,39 @@
 @import 'mixins';
 
 
+figure{
+    @include getdisplay(inline);
+}
+
 @media (min-width: 320px){
-	.logo img{
-		
-	}
 
-	.foto-desenvolvedor{
-		img{
-			@include define-dimension(230px,230px);
-			@include getpadding(20px,0,20px,0);
-		}
-	}
-		
+    .logo{
+	  img{
+	      padding:10px 0;
+	  }
+     }
 	
-
-	.imagem-servicos{
-		@include define-dimension(150px,120px);
-	}
+    .foto-desenvolvedor{
+	  img{
+	      @include define-dimension(230px,230px);
+	  }
+     }
+	
+    .imagem-servicos{
+          @include define-dimension(140px,140px);
+     }
 }
 
 @media (min-width: 768px){
-	.logo img{
-		
-	}
+	
+    .foto-desenvolvedor{
+         img{
+              @include define-dimension(350px,350px);
+              @include getmargin(8px,0,40px,0);
+         }
+     }
+
+    .imagem-servicos{
+	      @include define-dimension(200px,200px);
+     }
 }
