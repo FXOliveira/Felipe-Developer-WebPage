@@ -4,17 +4,10 @@
 @media (min-width: 320px){
 
 	.saiba-mais {
-
-		
-
 		a{
-
-			@include getpadding(5px,0,5px,0);
-
+		   @include getpadding(5px,0,5px,0);
 		}
-
 	}
-
 }
 
 
