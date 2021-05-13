@@ -1,31 +1,40 @@
 @import 'mixins';
 
+
 a{
 	text-decoration: none;
 	color:white;
 }
 
-
-
 @media (min-width: 320px){
-	.titulo h1{
-		@include getfontsize(mobile,title-h1);
-	}
 
-	.titulo h2{
-		@include getfontsize(mobile,title-h2);
+   .titulo{
+	h1,h2{
+	        @include getmargin(40px,0,45px,0);
+	     }  
 
-	}
+	h1{
+	     @include getfontsize(mobile,title-h1);
+	  }
 
-	.title-border{
-		@include drawTitleBorder;
-		@include getmargin(0,0,30px,0);
-	}
+	h2{
+	       @include getfontsize(mobile,title-h2);
+	   }
+	   
+       }
 
-	.descricao{
+   .title-border{
+	@include drawTitleBorder;
+	@include getmargin(0,0,30px,0);
+    }
 
-		.texto{
-			@include getfontsize(mobile,paragraph);
-		}
-	}
+.descricao{
+	.texto{
+	    @include getpadding(20px,0,15px,0);
+	 }	
 }
+	   
+}
+
+
+
