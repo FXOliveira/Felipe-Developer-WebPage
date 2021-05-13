@@ -1,4 +1,7 @@
 # Felipe-Developer-WebPage
 Modelo de Site de Divulgação de Desenvolvedor
+desenvolvido para fins de aprendizado.
 
-Ainda a ser Iniciado
+Obs: Códigos atualizados ainda passarão por revisão.
+
+
