@@ -1,17 +1,13 @@
 @import 'variables';
 
-
-
 @mixin reset{
 	margin:$zero-value;
 	padding:$zero-value;
 }
 
-
 @mixin drawTitleBorder{
 	border-bottom: 2px groove map-get($color,azul);
 }
-
 
 @mixin header-background{
 	background-color:map-get($color,black-light);
@@ -35,3 +31,6 @@
 	margin:$a  $b  $c  $d;
 }
 
+@mixin getdisplay($value){
+	display: $value;
+}
