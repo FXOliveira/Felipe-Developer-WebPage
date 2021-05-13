@@ -4,10 +4,12 @@ a {
 }
 
 @media (min-width: 320px) {
+  .titulo h1, .titulo h2 {
+    margin: 40px 0 45px 0;
+  }
   .titulo h1 {
     font-size: 22px;
   }
-
   .titulo h2 {
     font-size: 20px;
   }
@@ -18,8 +20,6 @@ a {
   }
 
   .descricao .texto {
-    font-size: 15px;
+    margin: 20px 0 15px 0;
   }
 }
-
-/*# sourceMappingURL=texts.css.map */
